@@ -1,0 +1,82 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    font-weight: 400;
+}
+
+header {
+    /* to arrange in a same line nav bar items with headings */
+    display: flex;
+    /* to make space between nav items or list items */
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+li {
+    /* to remove bullet points */
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+  nav { 
+    /* to solve the problem of alignment */
+    /* to allow movement of elements either on top,bottom etc */
+    position: relative;
+    /* to give space from the top because of position to make it in same line or equal  */
+    top: 1rem;
+    /* nav width */
+    width: 22rem;
+     } 
+
+.main_img {
+    /* to make it adjustable as per screen size(viewport width)(responsive) */
+    width: 95vw; 
+    /* 1rem=16px rem used to make website responsive */
+    margin: 1rem;
+}
+
+article {
+    display: flex;
+}
+.container{
+    /* to make the content in center */
+    text-align:center;
+    margin-right:2rem;
+    /* not too much effect yet on site */
+    padding:1rem;
+}
+p{
+    /* enlarge text */
+    font-size:1.5rem;
+
+}
+footer{
+    background-color: black;
+    color:white;
+    height:4rem;
+    display:flex;
+    justify-content: center;
+    /* to align items in mid(vertically) */
+    align-items:center;
+    font-size:1.5rem;
+}
+/* without flex justify content property will not work */
+/* to align items vertically(mid)use property align-items */
+/* text-align is like justify content but with text align align items will not work*/
+/* with text align property align-items property will not work  */
+a{
+    text-decoration: none;
+    color:black;
+}
+/*target element to apply css function and with function use semi colon and add function with its color or without color  */
+a:hover{
+    color:red;
+}
+/* favicon is basically your website or say compamny logo on title tab or with title tab like zoom meetings or amazon */
